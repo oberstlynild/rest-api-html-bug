@@ -1,0 +1,197 @@
+/**
+
+Nothing to see here. Just some messy css..
+
+**/
+
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main{
+    margin:0;
+    padding:0;
+}
+
+
+.theForm{
+    text-align:center;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 80%;
+    gap: 8px;
+    margin:auto;
+}
+
+.formButton{
+    margin-top: 7%;
+    transition: all 0.4s ease;
+}
+
+.formButton:hover{
+    background-color: #222;
+    color:white;
+}
+
+input{
+    height: 40px;
+}
+
+label{
+    height: 40px;
+}
+
+.buttonInput{
+    width: 80px;
+    height: 17px;
+    background-color: #333;
+    border: none;
+    color:white;
+    transition: all 0.4s ease;
+}
+
+.buttonInput2{
+    width: 100px;
+    height: 30px;
+    background-color: #222;
+    border: none;
+    color:white;
+    transition: all 0.4s ease;
+}
+
+.havartiOst{
+width: 100px;
+height: 50px;
+background-color: #222;
+border:solid 2px white;
+border-radius: 10px;
+}
+
+table{
+    border: solid 1px black;
+}
+
+tr, td, th{
+    border: solid 1px black;
+}
+
+h1, h2, h3{
+    text-align: center;
+    color: orange;
+}
+
+body{
+    background-color: #333;
+    color:white;
+}
+a{
+    padding:0;
+}
+
+input:focus{
+    border: solid 3px green;
+    transition: all 0.4s ease;
+    border-block: none;
+}
+.center-div1{
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #222;
+    padding-top: 2%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.center-div2{
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #222;
+    width: 50%;
+    padding: 2%;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-box-shadow: 7px 10px 14px 0px rgba(0,0,0,0.67);
+    -moz-box-shadow: 7px 10px 14px 0px rgba(0,0,0,0.67);
+    box-shadow: 7px 10px 14px 0px rgba(0,0,0,0.67);
+}
+.center{
+    text-align:center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 7px 10px 14px 0px rgba(0,0,0,0.67);
+-moz-box-shadow: 7px 10px 14px 0px rgba(0,0,0,0.67);
+box-shadow: 7px 10px 14px 0px rgba(0,0,0,0.67);
+    align-items: center;
+    justify-items: center;
+    padding:2%;
+    color:white;
+    background-color:#222;
+    align-items: self-start;
+    grid-gap: 1%;
+    border-radius: 10px;
+
+}
+
+.create{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 5px;
+
+}
+
+.create2{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5%;
+    border-radius: 5px;
+}
+.create3{
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 5px;
+    margin-top: 15%;
+}
+.createButton{
+    background-color: #222;
+    width: auto;
+    height:auto;
+    color:white;
+    box-shadow: 2px 1px 4px 1px #111;
+    line-height: 2px;
+    transition: all 0.4s ease;
+    margin: 5%;
+    border:none;
+    padding: 1%;
+    border-radius: 5px;
+    border:solid 1px white;
+}
+
+.error{
+    color:orange;
+    font-size: 0.9vw;
+}
+
+.buttonInput:hover{
+    background-color: #eee;
+    color: black;
+}
+.buttonInput2:hover{
+    background-color: #eee;
+    color: black;
+}
+.createButton:hover{
+    background-color: #eee;
+    color: black;
+}
